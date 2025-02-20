@@ -4,4 +4,4 @@ It is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-ap
 
 The CV is in `components/CV.tsx`. Everything else is boilerplate.
 
-It's deployed here for now: https://cv-website-xi-five.vercel.app/
+It's deployed here with github pages: http://ameliabruno.com/
