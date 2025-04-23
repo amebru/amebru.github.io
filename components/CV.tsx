@@ -82,14 +82,24 @@ const CV = () => {
             <p className="font-mono text-sm">dissertation: Variational bayesian inference for unsupervised induction of Minimalist Grammars</p>
             <li className="font-mono text-xs mb-2">applied mathematics research into adapting Bayesian inference techniques for formal grammars</li>
             <li className="font-mono text-xs mb-2">built  a working learning and inference model for grammars using Julia </li>
-          </div>
 
-          <div>
             <h3 className="font-mono font-bold">University of Toronto</h3>
             <p className="font-mono text-sm">BSc, Computer Science, Linguistics (2010 - 2015 graduated)</p>
           </div>
         </section>
+
+        {/* Papers */}
+        <section>
+          <h2 className="text-xl font-mono font-bold mb-4 border-b border-gray-500">PAPERS</h2>
+          
+          <div className="mb-8">
+            <ul className="font-mono">
+              <li>Amelia Bruno, Daniel Harasim, Eva Portelance, Leon Bergen, and Timothy J. O'Donnell. Grammar Induction for Minimalist Grammars using Variational Bayesian Inference: A Technical Report. <a href="https://arxiv.org/abs/1710.11350">https://arxiv.org/abs/1710.11350</a></li>
+            </ul>
+          </div>
+        </section>
       </div>
+
       <div className="text-right mt-8">
         <p className="font-mono text-xs text-gray-500">Last updated: {new Date().toLocaleDateString('de-DE')}</p>
       </div>
