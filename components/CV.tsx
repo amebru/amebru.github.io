@@ -21,7 +21,6 @@ const CV = () => {
           <h1 className="text-4xl font-mono font-bold mb-2">amelia bruno</h1>
           <p className="text-xl font-mono mb-4">dev</p>
           <div className="font-mono text-sm">
-            <p className="line-through">New York, NY, USA</p>
             <p>Berlin, DE, EU</p>
             <p><a href="mailto:amebru@icloud.com" className="text-blue-500">amebru@icloud.com</a></p>
             <p><a href="https://www.linkedin.com/in/👩‍💻-amelia-bruno-5ba708207" className="text-blue-500">linkedin</a></p>
@@ -94,7 +93,7 @@ const CV = () => {
           
           <div className="mb-8">
             <ul className="font-mono">
-              <li>Amelia Bruno, Daniel Harasim, Eva Portelance, Leon Bergen, and Timothy J. O'Donnell. Grammar Induction for Minimalist Grammars using Variational Bayesian Inference: A Technical Report. <a href="https://arxiv.org/abs/1710.11350">https://arxiv.org/abs/1710.11350</a></li>
+              <li>Amelia Bruno, Daniel Harasim, Eva Portelance, Leon Bergen, and Timothy J. O&apos;Donnell. Grammar Induction for Minimalist Grammars using Variational Bayesian Inference: A Technical Report. <a href="https://arxiv.org/abs/1710.11350">https://arxiv.org/abs/1710.11350</a></li>
             </ul>
           </div>
         </section>
