@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ameliabruno.com</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+            <svg id="moon-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" 
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+        </button>
+
+        <!-- Header -->
+        <header>
+            <h1>amelia bruno</h1>
+            <p class="subtitle">dev</p>
+            <div class="contact-info">
+                <p>Berlin, DE, EU</p>
+                <p><a href="mailto:amebru@icloud.com">amebru@icloud.com</a></p>
+                <p><a href="https://www.linkedin.com/in/👩‍💻-amelia-bruno-5ba708207">linkedin</a></p>
+                <p><a href="https://github.com/amebru">github</a></p>
+                <p>en, fr</p>
+            </div>
+        </header>
+
+        <!-- Stack -->
+        <section>
+            <h2>STACK</h2>
+            <ul>
+                <li>python</li>
+                <li>linux/macos</li>
+                <li>github</li>
+                <li>amazon cloud services (s3, lambda)</li>
+                <li>postgresql</li>
+                <li>redis</li>
+                <li>grafana</li>
+                <li>docker + kubernetes</li>
+                <li>claude/openai/deepseek</li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>EXPERIENCE</h2>
+            
+            <div class="experience-item">
+                <h3>Solutions Engineer @ Instabase, New York (remote)</h3>
+                <p class="date">10.2022 - 2.2025</p>
+                <ul class="details">
+                    <li>built document-understanding pipelines for enterprise clients using Instabase's AIHub platform, leveraging deep learning and large language models</li>
+                    <li>model training, fine tuning, LLM prompting, data analysis, programming in Python</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Solutions Architect @ Plotly, Montréal & New York (remote)</h3>
+                <p class="date">11.2021 - 10.2022</p>
+                <ul class="details">
+                    <li>built data visualization dashboards for enterprise clients using Plotly Dash</li>
+                    <li>data science and data visualization using Python, Redis, SQL databases</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Software Engineer @ Cerence, Montréal (remote)</h3>
+                <p class="date">2.2021 - 11.2021</p>
+                <ul class="details">
+                    <li>product dev work on Cerence's template-based speech assistant using Python</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>EDUCATION</h2>
+            
+            <div class="education-item">
+                <h3>McGill University</h3>
+                <p>PhD, Computational Linguistics (2015 - 2019 dropped out, awarded MA)</p>
+                <p>supervisor: Timothy O'Donnell</p>
+                <p>dissertation: Variational bayesian inference for unsupervised induction of Minimalist Grammars</p>
+                <ul class="details">
+                    <li>applied mathematics research into adapting Bayesian inference techniques for formal grammars</li>
+                    <li>built a working learning and inference model for grammars using Julia</li>
+                </ul>
+            </div>
+
+            <div class="education-item">
+                <h3>University of Toronto</h3>
+                <p>BSc, Computer Science, Linguistics (2010 - 2015 graduated)</p>
+            </div>
+        </section>
+
+        <!-- Papers -->
+        <section>
+            <h2>PAPERS</h2>
+            
+            <ul class="papers">
+                <li>Amelia Bruno, Daniel Harasim, Eva Portelance, Leon Bergen, and Timothy J. O'Donnell. Grammar Induction for Minimalist Grammars using Variational Bayesian Inference: A Technical Report. <a href="https://arxiv.org/abs/1710.11350">https://arxiv.org/abs/1710.11350</a></li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            <p id="last-updated">Last updated: <span id="update-date"></span></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
