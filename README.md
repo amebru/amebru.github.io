@@ -1,6 +1,6 @@
 This is my CV as a website (CAAW 🐮). 
 
-The CV is in `index.html`. CSS is in `css/styles.css` and JS is in `js/script.js`.
+The content is in `index.html`. 
 
 It's deployed here with github pages: http://ameliabruno.com/
 
