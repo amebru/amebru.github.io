@@ -28,6 +28,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
   background-color: var(--bg-light);
   color: var(--text-light);
+  font-size: 0.9rem;
 }
 
 body.dark-mode {
@@ -78,7 +79,11 @@ body.dark-mode .theme-toggle:hover {
 }
 
 /* Typography */
-h1, h2, h3, p, li {
+h1,
+h2,
+h3,
+p,
+li {
   font-family: 'Geist Mono', monospace;
 }
 
@@ -127,7 +132,8 @@ header {
   margin-bottom: 0.25rem;
 }
 
-.experience-item, .education-item {
+.experience-item,
+.education-item {
   margin-bottom: 1.5rem;
 }
 
@@ -138,7 +144,7 @@ header {
 
 .details {
   list-style-position: inside;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
 
@@ -180,15 +186,15 @@ body.dark-mode #last-updated {
   body {
     padding: 1rem;
   }
-  
+
   h1 {
     font-size: 1.5rem;
   }
-  
+
   .subtitle {
     font-size: 1rem;
   }
-  
+
   .container {
     padding-top: 2rem;
   }
